@@ -1,0 +1,53 @@
+<!--html start-->
+<html>
+    <!--head start-->
+    <head>
+        <title>Array - Top 5 Searches</title>
+        <!--css start-->
+        <link rel = "stylesheet" href="style.css"/>
+        <!--css end-->
+    </head>
+    <!--head end-->
+    
+    <!--body start-->
+    <body>
+
+        <!--section start-->
+        <section>
+            <div>
+                <h4>Let's return to the example we described earlier. They are as follows:</h4>
+
+                    <p><b>1.</b> A good use for array methods like push() and pop() is when you are maintaining a record of currently active items in a web app. In an animated scene for example, you might have an array of objects representing the background graphics currently displayed, and you might only want 50 displayed at once, for performance or clutter reasons. As new objects are created and added to the array, older ones can be deleted from the array to maintain the desired number.</p>
+                    <p><b>2.</b> In this example we're going to show a much simpler use — here we're giving you a fake search site, with a search box. The idea is that when terms are entered in the search box, the top 5 previous search terms are displayed in the list. When the number of terms goes over 5, the last term starts being deleted each time a new term is added to the top, so the 5 previous terms are always displayed.</p>
+            </div>
+        </section>
+        <!--section end-->
+
+        <!--input and button start-->
+        <input type="text" class="my_input" name="uname" />
+        <button type="button">Okay</button>
+        <!--input and button end-->
+
+        <!--section start-->
+        <section class="answer">
+            <nav>
+                <ul>
+                </ul>
+            </nav>
+        </section>
+        <!--section end-->
+
+        <div class="para">
+            <h5>Your Deleted History : </h5>
+            <ul>
+            </ul>
+        </div>
+    </body>
+    <!--body end-->
+
+    <!--script start-->
+    <script src = "scripts/script.js">
+    </script>
+    <!--script end-->
+</html>
+<!--html end-->
